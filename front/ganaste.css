@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #031B2F;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contenedor-ganaste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mensaje-ganaste {
+    background-color: #063A66;
+    padding: 3rem 4rem;
+    border-radius: 1rem;
+    text-align: center;
+  }
+  
+  .mensaje-ganaste h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .boton-volver {
+    display: inline-block;
+    background-color: #FDB927; 
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    transition: background-color 0.3s;
+  }
+  
+  .boton-volver:hover {
+    background-color: #e0a81f;
+  }
+  
+  

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagen Interactiva</title>
+  <link rel="stylesheet" href="entrar.css">
+</head>
+<body>
+  <div class="reglas-container">
+    <h1><span class="futbol">FUTBOL</span><span class="once">11</span></h1>
+
+    <button class="imagen-boton" id="imagenBoton">
+      <img src="07eb0716-10aa-48fe-9e5d-971b24acce52.png" alt="Imagen" />
+    </button>
+  </div>
+
+  <script>
+    const boton = document.getElementById('imagenBoton');
+    boton.addEventListener('click', () => {
+      boton.classList.toggle('agrandado');
+    });
+  </script>
+</body>
+</html>
