@@ -13,13 +13,12 @@
     <button class="imagen-boton" id="imagenBoton">
       <img src="" alt="Imagen" />
     </button>
-  </div>
+<script>
+  const imagen = document.getElementById('imagenBoton');
 
-  <script>
-    const boton = document.getElementById('imagenBoton');
-    boton.addEventListener('click', () => {
-      boton.classList.toggle('agrandado');
-    });
-  </script>
+  imagen.addEventListener('click', () => {
+    window.location.href = 'reglas.html';
+  });
+</script>
 </body>
 </html>
