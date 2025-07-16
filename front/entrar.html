@@ -10,15 +10,23 @@
   <div class="reglas-container">
     <h1><span class="futbol">FUTBOL</span><span class="once">11</span></h1>
 
-    <button class="imagen-boton" id="imagenBoton">
-      <img src="" alt="Imagen" />
-    </button>
-<script>
-  const imagen = document.getElementById('imagenBoton');
-
-  imagen.addEventListener('click', () => {
-    window.location.href = 'reglas.html';
-  });
-</script>
+    <a href="reglas.html">
+      <img src="/images/Captura de pantalla 2025-07-16 113310.png" alt="Ir a Reglas" class="imagenBoton">
+    </a>
+    
+    <style>
+      .imagenBoton {
+        width: 150px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 4px solid transparent;
+        border-radius: 10px;
+      }
+    
+      .imagenBoton:hover {
+        border: 4px solid #FDB927;
+      }
+    </style>
+    
 </body>
 </html>
