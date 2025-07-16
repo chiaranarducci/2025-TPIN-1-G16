@@ -76,9 +76,21 @@ body {
     transform: scale(1.05);
   }
 
+  .boton-borrar {
+    background-color: #2082a8; 
+    color: #000;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
   .boton-enviar {
     background-color: #FDB927; 
-    color: #000;
+    color: #000000;
     margin: 2rem;
     padding: 0.8rem 1.5rem;
     border: none;
